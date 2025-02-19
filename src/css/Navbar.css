@@ -1,0 +1,43 @@
+.navbar {
+  background-color: #333; /* Dark background */
+  padding: 15px 15px;
+  position: fixed; /* Fix to top */
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000; /* Ensure it's above other elements */
+  display: flex; /* Flexbox for layout */
+  align-items: center; /* Align items vertically */
+  justify-content:space-around; /* Left and right alignment */
+}
+
+.logo {
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex; /* Makes it horizontal */
+  gap: 20px; /* Space between items */
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list li {
+  display: inline;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  padding: 10px 15px;
+  transition: 0.3s;
+}
+
+.nav-list a:hover {
+  background-color: #555;
+  border-radius: 5px;
+}

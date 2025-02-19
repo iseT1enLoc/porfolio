@@ -1,0 +1,38 @@
+.hero {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 80vh;
+   background: url("../assets/hero-bg.jpg") center/cover no-repeat;
+   text-align: center;
+   color: black;
+   background-color: yellow;
+ }
+ 
+ .hero-content {
+   max-width: 100%;
+ }
+ 
+ .hero h1 {
+   font-size: 3rem;
+   margin-bottom: 10px;
+ }
+ 
+ .hero p {
+   font-size: 1.5rem;
+   margin-bottom: 20px;
+ }
+ 
+ .hero-btn {
+   background: #ff5722;
+   color: white;
+   padding: 10px 20px;
+   text-decoration: none;
+   border-radius: 5px;
+   font-size: 1.2rem;
+ }
+ 
+ .hero-btn:hover {
+   background: #e64a19;
+ }
+ 
