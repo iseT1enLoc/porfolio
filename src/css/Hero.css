@@ -3,15 +3,14 @@
    justify-content: center;
    align-items: center;
    height: 80vh;
-   background: url("../assets/hero-bg.jpg") center/cover no-repeat;
+   background-color: yellow;
    text-align: center;
    color: black;
-   background-color: yellow;
  }
  
- .hero-content {
+.hero-content {
    max-width: 100%;
- }
+}
  
  .hero h1 {
    font-size: 3rem;
