@@ -37,7 +37,7 @@ const Projects = () => {
       transition={{ duration: 0.6, ease: "easeOut" }}
       className="about-container mt-20"
     >
-      <h1 className="about-title mt-10">Projects</h1>
+      <h1 className="about-title">Projects</h1>
       <p className="about-description">
         Projects that i have done in university!
       </p>
