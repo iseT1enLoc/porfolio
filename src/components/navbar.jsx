@@ -13,7 +13,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar bg-gray-900 text-white p-4 fixed top-0 left-0 w-full z-50">
-      <div className="container mx-auto flex justify-between items-center mb-20">
+      <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
         <Link to="/" className="text-amber-50 font-bold text-xl">
           Tien Loc
