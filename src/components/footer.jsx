@@ -4,6 +4,7 @@ import {
   faTwitter,
   faInstagram,
   faLinkedinIn,
+  faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
@@ -33,23 +34,24 @@ const Footer = () => {
         </div>
 
         {/* Social Media */}
-        <div>
-          <h3 className="text-lg font-semibold mb-4">Follow Us</h3>
-          <div className="flex space-x-4 text-amber-50">
-            <a href="#" className="text-gray-400 hover:text-blue-400">
-              <FontAwesomeIcon icon={faFacebookF} size="lg" />
-            </a>
-            <a href="#" className="text-gray-400 hover:text-blue-300">
-              <FontAwesomeIcon icon={faTwitter} size="lg" />
-            </a>
-            <a href="#" className="text-gray-400 hover:text-pink-500">
-              <FontAwesomeIcon icon={faInstagram} size="lg" />
-            </a>
-            <a href="#" className="text-gray-400 hover:text-blue-500">
-              <FontAwesomeIcon icon={faLinkedinIn} size="lg" />
-            </a>
-          </div>
+        <div className="flex flex-col items-center">
+        <h3 className="text-lg font-semibold mb-4">Follow Us</h3>
+        <div className="flex space-x-4 text-amber-50">
+          <a href="https://www.facebook.com/t1enLoc.IseUIT" className="text-gray-400 hover:text-blue-400">
+            <FontAwesomeIcon icon={faFacebookF} size="lg" />
+          </a>
+          <a href="https://www.youtube.com/@LocNguyen-t3h" className="text-gray-400 hover:text-blue-300">
+            <FontAwesomeIcon icon={faYoutube} size="lg" />
+          </a>
+          <a href="https://www.instagram.com/iset1enloc/" className="text-gray-400 hover:text-pink-500">
+            <FontAwesomeIcon icon={faInstagram} size="lg" />
+          </a>
+          <a href="https://www.linkedin.com/in/locnguyen5/" className="text-gray-400 hover:text-blue-500">
+            <FontAwesomeIcon icon={faLinkedinIn} size="lg" />
+          </a>
         </div>
+      </div>
+
       </div>
 
       {/* Bottom Bar */}

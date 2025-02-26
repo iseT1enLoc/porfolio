@@ -25,7 +25,7 @@ const Hero = () => {
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
           <h1 className="text-5xl font-extrabold leading-tight">
-            CALL ME WHENEVER YOU NEED
+            ONCE BEGUN, DON'T LOOK BACK
           </h1>
           <p className="text-lg text-gray-200 mt-4">
             Passionate lifelong learner & creative developer, always exploring new technologies to build innovative projects.
