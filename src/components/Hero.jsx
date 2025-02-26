@@ -5,7 +5,7 @@ import "../index.css";
 const Hero = () => {
   return (
     <section
-      className="relative flex items-center justify-center min-h-screen bg-gray-900 text-white"
+      className="pt-20 relative flex items-center justify-center min-h-screen bg-gray-900 text-white"
       style={{
         backgroundImage:
           "url('https://assets.goal.com/images/v3/blt2aaca933046f8b00/Cristiano%20Ronaldo%20Portugal%202024%20(4).jpg?auto=webp&format=pjpg&width=1080&quality=60')",

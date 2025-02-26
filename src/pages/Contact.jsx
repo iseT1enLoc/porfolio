@@ -7,7 +7,7 @@ import "../index.css";
 const Contact = () => {
   return (
     <div>
-      <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-blue-500 to-purple-600 p-6 text-white">
+      <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-blue-500 to-purple-600 p-6 text-white pt-20">
         {/* Animated Contact Card */}
         <motion.div
           initial={{ y: 100, opacity: 0 }} // Start position (bottom)
