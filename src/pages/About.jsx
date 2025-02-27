@@ -41,7 +41,7 @@ const About = () => {
             viewport={{ once: true }}
             className="text-gray-600"
           >
-            Hello! I'm a passionate developer with a love for building beautiful and functional web applications. 
+            Hello!I am Nguyen Vo Tien Loc-a junior student at University of Information Technology UIT,HCM VNU. I'm a passionate developer with a love for building beautiful and functional web applications. 
             I specialize in Golang, Python, and modern web technologies. Let's create something amazing together!
           </motion.p>
         </motion.div>
