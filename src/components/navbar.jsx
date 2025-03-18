@@ -61,7 +61,7 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              href="https://drive.google.com/file/d/1tvuwyPueqA5tnKhz0BKNypcH3zwytWhK/view?usp=sharing"
+              href="https://drive.google.com/file/d/1nVtsyxQ2vBzW6nfbSlrxPcYb6pCBiL6V/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 font-semibold hover:text-amber-500 transition duration-200"
@@ -92,6 +92,7 @@ const Navbar = () => {
         <ul className="space-y-6 text-2xl">
           {[
             { path: "/", name: "Home" },
+            { path: "/contact", name: "Contact" },
             { path: "/projects", name: "Projects" },
             { path: "/contact", name: "Contact" },
           ].map(({ path, name }) => (
@@ -122,7 +123,7 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              href="https://drive.google.com/file/d/1tvuwyPueqA5tnKhz0BKNypcH3zwytWhK/view?usp=sharing"
+              href="https://drive.google.com/file/d/1nVtsyxQ2vBzW6nfbSlrxPcYb6pCBiL6V/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 font-semibold hover:text-amber-500 transition duration-200"
