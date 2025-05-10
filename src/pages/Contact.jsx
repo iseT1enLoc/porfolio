@@ -17,7 +17,7 @@ const Contact = () => {
         >
           {/* Logo Image */}
           <img 
-            src="public/media/pofoliologo.jpg" 
+            src="./media/pofoliologo.jpg" 
             alt="Logo" 
             className="w-32 h-32 mx-auto mb-4 rounded-full"
           />

@@ -25,7 +25,7 @@ const About = () => {
           </motion.h2>
           
           <motion.img 
-            src="public/media/pofoliologo.jpg" 
+            src="./media/pofoliologo.jpg" 
             alt="Profile" 
             className="w-50 h-50 rounded-full mx-auto mb-4 border-4 border-blue-500"
             initial={{ opacity: 0, rotateY: 180 }}
