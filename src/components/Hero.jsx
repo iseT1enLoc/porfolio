@@ -48,7 +48,7 @@ const Hero = () => {
           transition={{ duration: 0.8, ease: "easeOut", delay: 0.3 }}
         >
           <img
-            src="https://media.licdn.com/dms/image/v2/D4D03AQEak6ML_bpuAg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1730914226888?e=1746057600&v=beta&t=VFbG3sViPkM4UkHOfVcsamqvW_3mRlFGCdKyv03HxaA"
+            src="./media/pofoliologo.jpg"
             alt="Avatar"
             className="w-48 h-48 md:w-56 md:h-56 rounded-full shadow-lg border-4 border-white hover:scale-110 transition-transform"
           />

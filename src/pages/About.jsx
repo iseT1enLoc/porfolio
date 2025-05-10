@@ -25,7 +25,7 @@ const About = () => {
           </motion.h2>
           
           <motion.img 
-            src="https://media.licdn.com/dms/image/v2/D4D03AQEak6ML_bpuAg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1730914226888?e=1746057600&v=beta&t=VFbG3sViPkM4UkHOfVcsamqvW_3mRlFGCdKyv03HxaA" 
+            src="public/media/pofoliologo.jpg" 
             alt="Profile" 
             className="w-50 h-50 rounded-full mx-auto mb-4 border-4 border-blue-500"
             initial={{ opacity: 0, rotateY: 180 }}
