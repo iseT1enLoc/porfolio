@@ -7,7 +7,7 @@ import "../index.css"; // Fixed import path
 const projectData = [
   {
     name: "RoomExpense",
-    image: "/public/media/image.png",
+    image: "https://res.cloudinary.com/tienloc/image/upload/v1747330384/image_fownii.png",
     description: "Currently has 5 real users for internal testing. This fintech application has gone live and is actively used within my room, aiming to replace traditional spreadsheet-based tracking.",
     github: "https://github.com/iseT1enLoc/roomXpenseUI",
   },
