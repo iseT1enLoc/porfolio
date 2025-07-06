@@ -17,7 +17,7 @@ const Contact = () => {
         >
           {/* Logo Image */}
           <img 
-            src="https://media.licdn.com/dms/image/v2/D4D03AQEak6ML_bpuAg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1730914226888?e=1746057600&v=beta&t=VFbG3sViPkM4UkHOfVcsamqvW_3mRlFGCdKyv03HxaA" 
+            src="./media/pofoliologo.jpg" 
             alt="Logo" 
             className="w-32 h-32 mx-auto mb-4 rounded-full"
           />
